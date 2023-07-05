@@ -1,0 +1,6 @@
+﻿  main.cpp
+D:\Kolia\Year 3 Semester 2\Parallel Programming\MPI_project\MPI_project\main.cpp(126,97): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+D:\Kolia\Year 3 Semester 2\Parallel Programming\MPI_project\MPI_project\main.cpp(163,53): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+D:\Kolia\Year 3 Semester 2\Parallel Programming\MPI_project\MPI_project\main.cpp(309,53): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  main.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  MPI_project.vcxproj -> D:\Kolia\Year 3 Semester 2\Parallel Programming\MPI_project\Debug\MPI_project.exe

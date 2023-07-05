@@ -1,0 +1,35 @@
+
+ COMAND is par ->mpiexec MPI_project.exe 100
+ COMAND is seq ->mpiexec -n 1 MPI_project.exe 100
+
+
+
+
+if run Low pass:  
+
+  un comment this line in createImage function  
+  *** MyNewImage.Save("..//Data//Output_LowPass//outputRes" + index + ".png"); ***
+  
+  and un comment this line in main
+
+	/*	1.0 / 9.0, 1.0/9.0, 1.0 / 9.0,
+		1.0 / 9.0, 1.0 / 9.0, 1.0 / 9.0,
+		1.0 / 9.0, 1.0 / 9.0, 1.0 / 9.0
+	*/
+
+
+
+
+if run High pass: 
+
+  un comment this line in createImage function  
+  *** MyNewImage.Save("..//Data//Output_HighPass//outputRes" + index + ".png"); ***
+  
+  and un comment this line in main
+
+	/*       0, -1, 0,
+		-1, 4, -1,
+		0, -1, 0
+	*/
+		
+  
